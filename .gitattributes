@@ -1,8 +1,8 @@
 # Unreal Engine file types.
-*.uasset filter=lfs diff=lfs merge=binary -text lockable
-*.umap filter=lfs diff=lfs merge=lfs -text lockable
-*.upk filter=lfs diff=lfs merge=binary -text lockable
-*.udk filter=lfs diff=lfs merge=lfs -text lockable
+*.uasset filter=lfs diff=lfs merge=binary -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.upk filter=lfs diff=lfs merge=binary -text
+*.udk filter=lfs diff=lfs merge=lfs -text
 *.locres filter=lfs diff=lfs merge=lfs -text
 *.locmeta filter=lfs diff=lfs merge=lfs -text
 # Binaries
